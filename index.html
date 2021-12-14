@@ -59,9 +59,10 @@
                     suits me. Positive attitude, punctual, problem solving/analytical skills, and communicating are some
                     of my other strengths.</p>
                 <div class="social-icons m-auto">
-                    <a class="social-icon" href="https://www.linkedin.com/in/angie-shelton-6323771aa/"target="_blank"><i
-                            class="fab fa-linkedin-in"></i></a>
-                    <a class="social-icon" href="https://github.com/AngieS72"target="_blank"><i class="fab fa-github"></i></a>
+                    <a class="social-icon" href="https://www.linkedin.com/in/angie-shelton-6323771aa/"
+                        target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="social-icon" href="https://github.com/AngieS72" target="_blank"><i
+                            class="fab fa-github"></i></a>
                 </div>
             </div>
         </section>
@@ -101,6 +102,8 @@
                     <li class="list-inline-item"><i>C#</i></li>
                     <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
                     <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                    <li class="list-inline-item"><i class="fab fa-react"></i></li>
+
                     <!--<a href="https://icons8.com/icon/11407/android">Android icon by Icons8</a>-->
                     <li class="list-inline-item"><img src="https://img.icons8.com/ios-filled/50/6c757d/android.png" />
                     </li>
@@ -287,6 +290,19 @@
                                         height=100;><br>
                                     BIMS: Node JS MySQL REST API Project</a>
                             </li>
+                            <br>
+                            <li class="nested-list-group-item"><a href="https://github.com/AngieS72/dog-api-convert-to-react-app"
+                                    target="_blank"><img src="css/images/dogreactapi.png" alt="screenshot" width=100;
+                                        height=100;><br>
+                                    Dog API Convert to React Project</a>
+                            </li>
+                            <br>
+                            <li class="nested-list-group-item"><a href="https://github.com/AngieS72/mlbhats-app-ashelton"
+                                    target="_blank"><img src="css/images/mlbhats.png" alt="screenshot" width=100;
+                                        height=100;><br>
+                                   MERN E-Commerce App</a>
+                            </li>
+
                         </ul>
                     </li>
                 </ul>
@@ -361,35 +377,27 @@
                             <!-- Name input-->
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="name" type="text" placeholder="Enter your name..."
-                                    data-sb-validations="required" />
+                                    required />
                                 <label for="name">Name</label>
                                 <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                             </div>
                             <!-- Email address input-->
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="email" type="email" placeholder="name@example.com"
-                                    data-sb-validations="required,email" />
+                                    required />
                                 <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.
-                                </div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
                             <!-- Phone number input-->
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
-                                    data-sb-validations="required" />
+                                    required />
                                 <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is
-                                    required.</div>
                             </div>
                             <!-- Message input-->
                             <div class="form-floating mb-3">
                                 <textarea class="form-control" id="message" type="text"
-                                    placeholder="Enter your message here..." style="height: 10rem"
-                                    data-sb-validations="required"></textarea>
+                                    placeholder="Enter your message here..." style="height: 10rem" required></textarea>
                                 <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.
-                                </div>
                             </div>
                             <!-- Submit success message-->
                             <!---->
@@ -398,9 +406,7 @@
                             <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-3">
                                     <div class="fw-bolder">Form submission successful!</div>
-                                    <!--  To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a> -->
+
                                 </div>
                             </div>
                             <!-- Submit error message-->
@@ -411,8 +417,8 @@
                                 <div class="text-center text-danger mb-3">Error sending message!</div>
                             </div>
                             <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-dark text-white btn-xl"
-                                    id="submitButton" type="submit">Submit</button></div>
+                            <div class="d-grid"><button class="btn btn-dark text-white btn-xl" id="submitButton"
+                                    type="submit">Submit</button></div>
                         </form>
                     </div>
                 </div>
@@ -438,6 +444,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <!-- Forms JS-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 
 </html>
